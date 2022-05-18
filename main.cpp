@@ -14,5 +14,6 @@ int main() {
   cout << p << endl;  // print value store in p i.e address of a
   cout << *p << endl; // print the value which is at the address stored in p
   cout << &a << endl; // print address of a
-  cout << "Size of pointer is always fix depending on the system: " << sizeof(p) << endl; //print size of p it depends on the system may be 4 or 8 but irrespective of the data type it will be always be of same size.
+//print size of p it depends on the system may be 4 or 8 but irrespective of the data type it will be always be of same size.
+  cout << "Size of pointer is always fix depending on the system: " << sizeof(p) << endl; 
 }
